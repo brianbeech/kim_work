@@ -17,4 +17,10 @@ public class MyController {
         System.out.println("hit index method");
         return "index";
     }
+
+    @RequestMapping(value="timecard", method = RequestMethod.GET)
+    public String getBillingPage(ModelMap model){
+        System.out.println("hit index method");
+        return "billing/index";
+    }
 }

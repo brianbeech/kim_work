@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Consultants <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Students</a></li>
-                <li><a href="#">Timecards</a></li>
+                <li><a href="timecard">Timecards</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Billing Reports
                         <span class="caret"></span></a>
