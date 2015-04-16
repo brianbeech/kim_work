@@ -8,14 +8,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">ERM</a>
+            <a class="navbar-brand" th:href="@{/}">ERM</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Consultants <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultants
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a th:href="@{/consultant/admin}">Configure</a></li>
+                        <li><a th:href="@{/consultant/units}">Units</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Students</a></li>
-                <li><a href="timecard">Timecards</a></li>
+                <li><a th:href="@{/billing/timecard}">Timecards</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Billing Reports
                         <span class="caret"></span></a>
