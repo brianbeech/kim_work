@@ -21,7 +21,7 @@
                         <li><a th:href="@{/consultant/units}">Units</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Students</a></li>
+                <li><a th:href="@{/student/index}">Students</a></li>
                 <li><a th:href="@{/billing/timecard}">Timecards</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Billing Reports

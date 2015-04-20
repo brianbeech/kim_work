@@ -5,9 +5,8 @@
 <div class="col-lg-4">
     <div class="panel panel-primary">
         <div class="panel-heading">Consultants</div>
-        <ul class="list-group">
-            <li class="list-group-item">Mary Jacobs<a href="#"><span
-                    class="pull-right glyphicon glyphicon-exclamation-sign" style="color:red"></span></a></li>
+        <ul class="list-group selection-handle">
+            <li class="list-group-item">Mary Jacobs<a href="#"><span class="pull-right glyphicon glyphicon-exclamation-sign" style="color:red"></span></a></li>
             <li class="list-group-item"><a href="#">Eli Brogan</a></li>
             <li class="list-group-item"><a href="#">Sarah Betwilsher</a></li>
             <li class="list-group-item"><a href="#">Katy Martinason</a></li>

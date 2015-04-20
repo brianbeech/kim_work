@@ -22,7 +22,7 @@
 <body th:with="contextPath=${#ctx.httpServletRequest.contextPath}">
 <div th:include="layout/nav" class=""></div>
 
-<div class="container-fluid" th:include="this :: content"></div>
+<div class="container-fluid col-lg-8" th:include="this :: content"></div>
 
 <div class="container-fluid green-box ui-corner-all navbar-fixed-bottom" th:include="layout/footer"></div>
 

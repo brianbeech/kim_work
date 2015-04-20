@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html th:include="layout/page" th:fragment="content">
 
-<div class="col-lg-8">
     <div class="alert alert-info">Consultant: Marcia Lepley <a href=""><span class="glyphicon glyphicon-chevron-down"></span></a></div>
     <div class="panel panel-default">
         <div class="panel-heading text-center">Units</div>
         <table class="table table-responsive table-bordered">
             <tr>
-                <th class="text-center">Child</th>
+                <th class="text-center">Student</th>
                 <th class="text-center">Mar 1-7</th>
                 <th class="text-center">Mar 8-14</th>
                 <th class="text-center">Mar 15-21</th>
@@ -55,5 +54,4 @@
     </div>
 
 
-</div>
 </html>

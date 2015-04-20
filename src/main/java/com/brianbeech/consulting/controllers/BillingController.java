@@ -14,7 +14,6 @@ public class BillingController {
 
     @RequestMapping(value="timecard", method = RequestMethod.GET)
     public String getBillingPage(ModelMap model){
-        System.out.println("hit index method");
         return "billing/index";
     }
 
